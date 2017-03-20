@@ -50,7 +50,7 @@ For convenience, add the private key to your ssh-agent:
 
 ``ssh-add ~/.ssh/my_e6894_key``
 
-**Add your public key to your GCP project.**
+**Add your public key to your GCP project:**
 
 Go back to GCP -> Menu -> Compute Engine -> Metadata -> SSH Keys -> Add SSH keys.
 
