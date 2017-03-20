@@ -23,3 +23,6 @@ Enter the coupon code you have, and select **No** unless you actually want email
 Then, GCP will create a project for you automatically.
 
 To check your coupon is redeemed successfully, check the menu at upper left corner -> Billing. You can see your coupon there.
+
+![coupon](https://github.com/llcao/cu17/blob/master/install_googlecloud/img/coupon.png)
+
