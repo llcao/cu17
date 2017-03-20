@@ -66,5 +66,16 @@ Look at [this tutorial](https://cloud.google.com/compute/docs/gpus/add-gpus), or
 
 I think you need to resize the persistent disk for your instance because it's usually too small. Please have a look at [this tutorial](https://cloud.google.com/compute/docs/disks/add-persistent-disk).
 
+## Accessing VM instance
+
+You can use **Google Cloud Shell** to access your instance easily.
+
+![gshell](https://github.com/llcao/cu17/blob/master/install_googlecloud/img/gshell.png)
+
+You can also use **SSH** to access your instance.
+
+`ssh [user_name]@[external_IP_address]`
+
 ## Notations
+
 Remember to [stop/terminate your instance](https://cloud.google.com/compute/docs/instances/stopping-or-deleting-an-instance) when you are not using it. "A stopped instance does not incur charges, but all of the resources that are attached to the instance will still be charged." 
