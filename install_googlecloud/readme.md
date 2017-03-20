@@ -76,6 +76,10 @@ You can also use **SSH** to access your instance.
 
 `ssh [user_name]@[external_IP_address]`
 
+Sample command:
+
+`ssh [myUNI]@104.196.107.142`
+
 ## Notations
 
 Remember to [stop/terminate your instance](https://cloud.google.com/compute/docs/instances/stopping-or-deleting-an-instance) when you are not using it. "A stopped instance does not incur charges, but all of the resources that are attached to the instance will still be charged." 
