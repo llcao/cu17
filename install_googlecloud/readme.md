@@ -32,6 +32,11 @@ Click the dropdown menu of projects, and click **Create project**. Enter your ow
 
 ![new project](https://github.com/llcao/cu17/blob/master/install_googlecloud/img/new_project_1.png)
 
-Generate a private/public key-pair.
+Generate a private/public key-pair. GCP provides a tutotrial for this step [HERE](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
+Here, I give you a sample command(for Mac/Linux):
+`ssh-keygen -t rsa -f ~/.ssh/my_w4187_key -C [MY_UNI]`
+
+
+
 
 
