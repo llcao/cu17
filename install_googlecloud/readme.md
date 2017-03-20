@@ -18,7 +18,7 @@ You will get to this page if success.
 
 Go to https://console.cloud.google.com/education. 
 
-Enter the coupon code you have, and select **No** unless you actually want email updates on new offerings. Click on Accept and continue.
+Enter the coupon code you have, and select *No* unless you actually want email updates on new offerings. Click on Accept and continue.
 
 Then, GCP will create a project for you automatically.
 
@@ -47,8 +47,9 @@ For convenience, add the private key to your ssh-agent:
 
 Go back to GCP -> Menu -> Compute Engine -> Metadata -> SSH Keys -> Add SSH keys.
 
-View the content of `my_e6894_key.pub` using command `vim ~/.ssh/my_e6894_key.pub`. Copy the content start with `ssh-rsa` to GCP. 
+View the content of `my_e6894_key.pub` by using command `vim ~/.ssh/my_e6894_key.pub`. Copy the content start with `ssh-rsa` to GCP. 
 
 Click *Save*.
 
+## Create virtual machine instance
 
