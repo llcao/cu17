@@ -1,4 +1,4 @@
-# Get Started with `cloud.cs.columbia account`
+# Get Started with `cloud.cs.columbia` account
 Yizhou Wang
 
 ## Get a `cloud.cs.columbia.edu` account and redeem a coupon code
