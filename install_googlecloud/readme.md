@@ -36,7 +36,9 @@ Click the dropdown menu of projects, and click *Create project*. Enter your own 
 
 ![new project](https://github.com/llcao/cu17/blob/master/install_googlecloud/img/new_project_1.png)
 
-Generate a **private/public key-pair**. GCP provides a tutotrial for this step [HERE](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
+## Generate a private/public key-pair (optional)
+
+GCP provides a tutotrial for this step [HERE](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
 
 I give you some sample commands for Mac/Linux:
 
@@ -48,7 +50,7 @@ For convenience, add the private key to your ssh-agent:
 
 ``ssh-add ~/.ssh/my_e6894_key``
 
-## Add your public key to your GCP project
+**Add your public key to your GCP project.**
 
 Go back to GCP -> Menu -> Compute Engine -> Metadata -> SSH Keys -> Add SSH keys.
 
