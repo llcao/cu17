@@ -34,8 +34,9 @@ Click the dropdown menu of projects, and click **Create project**. Enter your ow
 
 Generate a **private/public key-pair**. GCP provides a tutotrial for this step [HERE](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys#createsshkeys).
 I can give you a sample command for Mac/Linux:
-``ssh-keygen -t rsa -f ~/.ssh/my_e6894_key -C [MY_UNI]
-chmod 400 ~/.ssh/my_e6894_key``
+
+``ssh-keygen -t rsa -f ~/.ssh/my_e6894_key -C [MY_UNI]``
+``chmod 400 ~/.ssh/my_e6894_key``
 
 
 
